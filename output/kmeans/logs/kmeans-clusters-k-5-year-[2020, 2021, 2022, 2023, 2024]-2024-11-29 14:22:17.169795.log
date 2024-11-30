@@ -1,0 +1,199 @@
+Start of KMeans clustering run
+Start of KMeans clustering run with parameters: 
+file_name: ../data/pp-data-1732640534.779797.csv
+category_variance_threshold: 0.001
+word_variance_threshold: 0.001
+year: [2020, 2021, 2022, 2023, 2024]
+k: 5
+Categories (20): ['categories_astro-ph', 'categories_cond-mat', 'categories_cs', 'categories_econ', 'categories_eess', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_physics', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_stat']
+Categories kept after VarianceThreshold (20): ['categories_astro-ph', 'categories_cond-mat', 'categories_cs', 'categories_econ', 'categories_eess', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_physics', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_stat']
+Word features (100): ['anomaly detection' 'artificial intelligence' 'autonomous driving'
+ 'black hole' 'black holes' 'case study' 'contrastive learning'
+ 'convolutional neural' 'convolutional neural networks' 'covid 19'
+ 'dark energy' 'dark matter' 'data augmentation' 'data driven'
+ 'decision making' 'deep learning' 'deep learning based' 'deep neural'
+ 'deep neural networks' 'deep reinforcement' 'deep reinforcement learning'
+ 'differential equations' 'diffusion models' 'domain adaptation'
+ 'dynamical systems' 'end end' 'federated learning' 'field theory'
+ 'fine tuning' 'finite element' 'gamma ray' 'generative adversarial'
+ 'gradient descent' 'graph neural' 'graph neural networks'
+ 'gravitational wave' 'gravitational waves' 'high dimensional'
+ 'high energy' 'high order' 'high resolution' 'higher order'
+ 'image segmentation' 'language model' 'language models' 'large language'
+ 'large language model' 'large language models' 'large scale'
+ 'learning approach' 'learning based' 'learning models' 'long range'
+ 'low rank' 'machine learning' 'magnetic field' 'massive mimo'
+ 'mean field' 'medical image' 'model based' 'monte carlo' 'multi agent'
+ 'multi modal' 'multi task' 'natural language' 'neural network'
+ 'neural networks' 'neutron star' 'non hermitian' 'non linear'
+ 'object detection' 'open source' 'optimal control' 'optimal transport'
+ 'phase transition' 'phase transitions' 'physics informed' 'point cloud'
+ 'pre trained' 'pre training' 'privacy preserving' 'question answering'
+ 'real time' 'real world' 'reinforcement learning'
+ 'representation learning' 'second order' 'self supervised'
+ 'semantic segmentation' 'semi supervised' 'spatio temporal'
+ 'speech recognition' 'super resolution' 'supervised learning'
+ 'time dependent' 'time series' 'transfer learning' 'using deep'
+ 'vision language' 'zero shot']
+Words kept after VarianceThreshold (92): ['word_anomaly detection', 'word_artificial intelligence', 'word_autonomous driving', 'word_black hole', 'word_black holes', 'word_case study', 'word_contrastive learning', 'word_convolutional neural', 'word_covid 19', 'word_dark energy', 'word_dark matter', 'word_data augmentation', 'word_data driven', 'word_decision making', 'word_deep learning', 'word_deep neural', 'word_deep reinforcement', 'word_differential equations', 'word_diffusion models', 'word_domain adaptation', 'word_dynamical systems', 'word_end end', 'word_federated learning', 'word_field theory', 'word_fine tuning', 'word_finite element', 'word_gamma ray', 'word_generative adversarial', 'word_gradient descent', 'word_graph neural', 'word_graph neural networks', 'word_gravitational wave', 'word_gravitational waves', 'word_high dimensional', 'word_high energy', 'word_high order', 'word_high resolution', 'word_higher order', 'word_language model', 'word_language models', 'word_large language', 'word_large language models', 'word_large scale', 'word_learning approach', 'word_learning based', 'word_long range', 'word_low rank', 'word_machine learning', 'word_magnetic field', 'word_massive mimo', 'word_mean field', 'word_model based', 'word_monte carlo', 'word_multi agent', 'word_multi modal', 'word_multi task', 'word_natural language', 'word_neural network', 'word_neural networks', 'word_neutron star', 'word_non hermitian', 'word_non linear', 'word_object detection', 'word_open source', 'word_optimal control', 'word_optimal transport', 'word_phase transition', 'word_phase transitions', 'word_physics informed', 'word_point cloud', 'word_pre trained', 'word_pre training', 'word_privacy preserving', 'word_question answering', 'word_real time', 'word_real world', 'word_reinforcement learning', 'word_representation learning', 'word_second order', 'word_self supervised', 'word_semantic segmentation', 'word_semi supervised', 'word_spatio temporal', 'word_speech recognition', 'word_super resolution', 'word_supervised learning', 'word_time dependent', 'word_time series', 'word_transfer learning', 'word_using deep', 'word_vision language', 'word_zero shot']
+Applying KMeans with k=5 to data with shape: (402836, 112)
+Centroids:    categories_astro-ph  categories_cond-mat  categories_cs  categories_econ  \
+0         2.348357e-01         1.351796e-01   3.186340e-14     1.047389e-02   
+1        -3.227973e-14        -1.916522e-14   1.000000e+00    -7.988402e-16   
+2         1.991463e-15         1.811051e-15   2.287059e-14    -2.081668e-17   
+3         3.955170e-16         7.216450e-16   1.787459e-14    -1.517883e-17   
+4         1.908196e-15         1.762479e-15   2.275957e-14    -2.385245e-17   
+
+   categories_eess  categories_gr-qc  categories_hep-ex  categories_hep-lat  \
+0    -1.162959e-14      1.083548e-01       1.959300e-02        5.606010e-03   
+1    -2.810252e-14     -8.812395e-16      -1.647987e-15       -8.497977e-16   
+2     5.301315e-15     -6.765422e-16       1.994932e-16       -6.722053e-18   
+3     2.706169e-15     -5.863365e-16       1.665335e-16       -1.084202e-18   
+4     1.000000e+00     -6.730727e-16       1.977585e-16       -9.757820e-18   
+
+   categories_hep-ph  categories_hep-th  ...  word_spatio temporal  \
+0       7.313974e-02       6.428224e-02  ...              0.003611   
+1       8.361367e-15      -3.892719e-15  ...              0.006438   
+2      -8.222589e-16      -4.718448e-16  ...              0.004035   
+3      -2.706169e-16       1.144917e-16  ...              0.017243   
+4      -8.014422e-16      -3.851086e-16  ...              0.006794   
+
+   word_speech recognition  word_super resolution  word_supervised learning  \
+0                 0.000146               0.003561                  0.001807   
+1                 0.010213               0.007746                  0.010999   
+2                 0.000028               0.003127                  0.002762   
+3                 0.001106               0.001132                  0.011669   
+4                 0.042129               0.033445                  0.012688   
+
+   word_time dependent  word_time series  word_transfer learning  \
+0             0.013689          0.007864                0.002369   
+1             0.001220          0.016600                0.010851   
+2             0.020274          0.013842                0.002159   
+3             0.003191          0.080742                0.013791   
+4             0.000739          0.011182                0.014225   
+
+   word_using deep  word_vision language  word_zero shot  
+0         0.004888              0.000085        0.000373  
+1         0.008829              0.013482        0.015805  
+2         0.002044              0.000030        0.000129  
+3         0.006204              0.000222        0.002185  
+4         0.020431              0.001251        0.011140  
+
+[5 rows x 112 columns]
+Cluster 0:
+ -> categories_astro-ph: 0.2348
+ -> categories_physics: 0.1715
+ -> categories_cond-mat: 0.1352
+ -> categories_gr-qc: 0.1084
+ -> word_dark matter: 0.0953
+ -> word_black hole: 0.0807
+ -> word_black holes: 0.0766
+ -> categories_hep-ph: 0.0731
+ -> categories_hep-th: 0.0643
+  word_machine learning: 0.0615
+ -> categories_quant-ph: 0.0558
+ -> categories_q-bio: 0.0481
+ -> word_gravitational wave: 0.0422
+ -> word_magnetic field: 0.0342
+ -> word_field theory: 0.0338
+ -> word_gravitational waves: 0.0317
+  word_neural networks: 0.0293
+ -> word_phase transition: 0.0287
+  word_covid 19: 0.0284
+  word_deep learning: 0.0279
+ 
+Cluster 1:
+ -> categories_cs: 1.0000
+ -> word_language models: 0.0643
+  word_reinforcement learning: 0.0642
+  word_neural networks: 0.0585
+  word_deep learning: 0.0526
+  word_machine learning: 0.0490
+ -> word_large language: 0.0412
+ -> word_large language models: 0.0357
+  word_neural network: 0.0347
+  word_federated learning: 0.0333
+  word_self supervised: 0.0221
+  word_multi agent: 0.0217
+  word_large scale: 0.0214
+  word_real time: 0.0201
+ -> word_language model: 0.0183
+ -> word_object detection: 0.0181
+  word_representation learning: 0.0177
+  word_covid 19: 0.0174
+  word_learning based: 0.0172
+  word_time series: 0.0166
+ 
+Cluster 2:
+ -> categories_math: 1.0000
+ -> word_differential equations: 0.0813
+ -> word_optimal control: 0.0555
+ -> word_mean field: 0.0537
+  word_neural networks: 0.0525
+ -> word_dynamical systems: 0.0454
+ -> word_finite element: 0.0424
+  word_high dimensional: 0.0423
+ -> word_second order: 0.0412
+ -> word_higher order: 0.0368
+  word_optimal transport: 0.0319
+  word_massive mimo: 0.0302
+  word_data driven: 0.0299
+ -> word_high order: 0.0286
+  word_machine learning: 0.0256
+  word_gradient descent: 0.0249
+  word_deep learning: 0.0248
+  word_neural network: 0.0234
+  word_reinforcement learning: 0.0234
+  word_low rank: 0.0232
+ 
+Cluster 3:
+ -> categories_stat: 1.0000
+  word_neural networks: 0.1022
+  word_high dimensional: 0.0967
+  word_time series: 0.0807
+  word_machine learning: 0.0769
+  word_reinforcement learning: 0.0533
+  word_covid 19: 0.0463
+  word_deep learning: 0.0459
+ -> word_monte carlo: 0.0388
+  word_neural network: 0.0335
+  word_gradient descent: 0.0235
+  word_large scale: 0.0199
+  word_optimal transport: 0.0191
+  word_federated learning: 0.0182
+  word_low rank: 0.0175
+  word_data driven: 0.0175
+ -> word_spatio temporal: 0.0172
+ -> word_deep neural: 0.0170
+ -> word_model based: 0.0156
+  word_representation learning: 0.0153
+ 
+Cluster 4:
+ -> categories_eess: 1.0000
+  word_deep learning: 0.0914
+  word_neural network: 0.0502
+  word_reinforcement learning: 0.0476
+  word_neural networks: 0.0446
+ -> word_speech recognition: 0.0421
+  word_real time: 0.0396
+  word_learning based: 0.0385
+ -> word_end end: 0.0375
+  word_machine learning: 0.0367
+  word_data driven: 0.0367
+ -> word_super resolution: 0.0334
+  word_self supervised: 0.0331
+  word_massive mimo: 0.0324
+  word_covid 19: 0.0254
+  word_large scale: 0.0214
+ -> word_convolutional neural: 0.0209
+  word_multi agent: 0.0205
+ -> word_using deep: 0.0204
+ -> word_generative adversarial: 0.0186
+ 
+Cluster 0: 107028 samples
+Cluster 1: 224534 samples
+Cluster 2: 26438 samples
+Cluster 3: 18699 samples
+Cluster 4: 26137 samples
+Silhouette Score: 0.2404166586634261
+End of KMeans clustering run

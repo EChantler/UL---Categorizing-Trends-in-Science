@@ -1,0 +1,174 @@
+Start of GMM clustering run
+Start of GMM clustering run with parameters: 
+file_name: ../data/pp-data-1732640534.779797.csv
+category_variance_threshold: 0.001
+word_variance_threshold: 0.001
+year: [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+k: 4
+Categories (36): ['categories_acc-phys', 'categories_adap-org', 'categories_alg-geom', 'categories_ao-sci', 'categories_astro-ph', 'categories_atom-ph', 'categories_bayes-an', 'categories_chao-dyn', 'categories_chem-ph', 'categories_cmp-lg', 'categories_comp-gas', 'categories_cond-mat', 'categories_cs', 'categories_dg-ga', 'categories_funct-an', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_mtrl-th', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_patt-sol', 'categories_physics', 'categories_plasm-ph', 'categories_q-alg', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_solv-int', 'categories_stat', 'categories_supr-con']
+Categories kept after VarianceThreshold (36): ['categories_acc-phys', 'categories_adap-org', 'categories_alg-geom', 'categories_ao-sci', 'categories_astro-ph', 'categories_atom-ph', 'categories_bayes-an', 'categories_chao-dyn', 'categories_chem-ph', 'categories_cmp-lg', 'categories_comp-gas', 'categories_cond-mat', 'categories_cs', 'categories_dg-ga', 'categories_funct-an', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_mtrl-th', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_patt-sol', 'categories_physics', 'categories_plasm-ph', 'categories_q-alg', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_solv-int', 'categories_stat', 'categories_supr-con']
+Word features (100): ['black hole' 'black holes' 'bose einstein' 'bound states' 'chern simons'
+ 'chiral perturbation' 'chiral perturbation theory' 'chiral symmetry'
+ 'conformal field' 'correlation functions' 'cosmic microwave'
+ 'cosmological constant' 'cp violation' 'dark matter' 'deep inelastic'
+ 'deep inelastic scattering' 'dimensional quantum' 'effective action'
+ 'effective field' 'field theories' 'field theory' 'finite size'
+ 'finite temperature' 'form factors' 'gamma ray' 'gamma ray bursts'
+ 'gauge theories' 'gauge theory' 'general relativity'
+ 'gravitational waves' 'ground state' 'hall effect' 'heavy ion'
+ 'heavy ion collisions' 'heavy quark' 'higgs boson' 'high energy'
+ 'high temperature' 'higher order' 'hubbard model' 'inelastic scattering'
+ 'integrable systems' 'ion collisions' 'ising model' 'large scale'
+ 'lattice gauge' 'lattice qcd' 'lie algebras' 'light cone' 'long range'
+ 'low energy' 'magnetic field' 'magnetic fields' 'matrix models'
+ 'mean field' 'microwave background' 'mills theory' 'moduli spaces'
+ 'monte carlo' 'neutrino oscillations' 'neutron stars' 'non abelian'
+ 'non linear' 'non perturbative' 'pair production' 'path integral'
+ 'perturbation theory' 'phase diagram' 'phase space' 'phase transition'
+ 'phase transitions' 'qcd sum' 'quantum field' 'quantum field theory'
+ 'quantum gravity' 'quantum groups' 'quantum hall' 'quantum hall effect'
+ 'quantum mechanics' 'quark gluon' 'quark model' 'random matrix'
+ 'ray bursts' 'renormalization group' 'scalar field' 'self dual'
+ 'sigma model' 'solar neutrino' 'space time' 'standard model'
+ 'star formation' 'statistical mechanics' 'string theory'
+ 'structure functions' 'sum rules' 'supersymmetry breaking'
+ 'symmetry breaking' 'time dependent' 'yang mills' 'yang mills theory']
+Words kept after VarianceThreshold (89): ['word_black hole', 'word_black holes', 'word_bose einstein', 'word_bound states', 'word_chern simons', 'word_chiral symmetry', 'word_conformal field', 'word_correlation functions', 'word_cosmological constant', 'word_cp violation', 'word_dark matter', 'word_deep inelastic', 'word_dimensional quantum', 'word_effective action', 'word_effective field', 'word_field theories', 'word_field theory', 'word_finite size', 'word_finite temperature', 'word_form factors', 'word_gamma ray', 'word_gauge theories', 'word_gauge theory', 'word_general relativity', 'word_gravitational waves', 'word_ground state', 'word_hall effect', 'word_heavy ion', 'word_heavy quark', 'word_higgs boson', 'word_high energy', 'word_high temperature', 'word_higher order', 'word_hubbard model', 'word_integrable systems', 'word_ion collisions', 'word_ising model', 'word_large scale', 'word_lattice gauge', 'word_lattice qcd', 'word_lie algebras', 'word_light cone', 'word_long range', 'word_low energy', 'word_magnetic field', 'word_magnetic fields', 'word_matrix models', 'word_mean field', 'word_microwave background', 'word_moduli spaces', 'word_monte carlo', 'word_neutrino oscillations', 'word_neutron stars', 'word_non abelian', 'word_non linear', 'word_non perturbative', 'word_pair production', 'word_path integral', 'word_perturbation theory', 'word_phase diagram', 'word_phase space', 'word_phase transition', 'word_phase transitions', 'word_qcd sum', 'word_quantum field', 'word_quantum field theory', 'word_quantum gravity', 'word_quantum groups', 'word_quantum hall', 'word_quantum mechanics', 'word_quark gluon', 'word_quark model', 'word_random matrix', 'word_renormalization group', 'word_scalar field', 'word_self dual', 'word_sigma model', 'word_solar neutrino', 'word_space time', 'word_standard model', 'word_star formation', 'word_statistical mechanics', 'word_string theory', 'word_structure functions', 'word_sum rules', 'word_supersymmetry breaking', 'word_symmetry breaking', 'word_time dependent', 'word_yang mills']
+Applying GMM with k=4 to data with shape: (42362, 125)
+Centroids:    categories_acc-phys  categories_adap-org  categories_alg-geom  \
+0             0.000000             0.000000             0.000000   
+1             0.000000             0.000000             0.000000   
+2             0.000000             0.000000             0.000000   
+3             0.000336             0.003249             0.007003   
+
+   categories_ao-sci  categories_astro-ph  categories_atom-ph  \
+0           0.000000             0.000000            0.000000   
+1           0.000000             0.000000            0.000000   
+2           0.000000             0.000000            0.000000   
+3           0.000056             0.248249            0.001345   
+
+   categories_bayes-an  categories_chao-dyn  categories_chem-ph  \
+0             0.000000             0.000000            0.000000   
+1             0.000000             0.000000            0.000000   
+2             0.000000             0.000000            0.000000   
+3             0.000112             0.014903            0.001793   
+
+   categories_cmp-lg  ...  word_standard model  word_star formation  \
+0            0.00000  ...             0.063702             0.000000   
+1            0.00000  ...             0.000159             0.000000   
+2            0.00000  ...             0.011612             0.000000   
+3            0.00056  ...             0.005419             0.016271   
+
+   word_statistical mechanics  word_string theory  word_structure functions  \
+0                    0.001122            0.007300                  0.028079   
+1                    0.015676            0.000268                  0.000318   
+2                    0.004455            0.063321                  0.000421   
+3                    0.007708            0.006180                  0.006151   
+
+   word_sum rules  word_supersymmetry breaking  word_symmetry breaking  \
+0        0.027970                     0.029922                0.034599   
+1        0.001639                     0.000000                0.014953   
+2        0.001923                     0.014340                0.015033   
+3        0.004981                     0.002286                0.009152   
+
+   word_time dependent  word_yang mills  
+0             0.001381         0.009486  
+1             0.011672         0.000084  
+2             0.003485         0.054063  
+3             0.010319         0.013784  
+
+[4 rows x 125 columns]
+Cluster 0:
+ -> categories_hep-ph: 1.0000
+ -> word_standard model: 0.0637
+ -> word_cp violation: 0.0574
+  word_high energy: 0.0472
+ -> word_heavy quark: 0.0395
+ -> word_higgs boson: 0.0350
+ -> word_symmetry breaking: 0.0346
+  word_dark matter: 0.0329
+  word_phase transition: 0.0307
+ -> word_supersymmetry breaking: 0.0299
+ -> word_form factors: 0.0282
+ -> word_structure functions: 0.0281
+ -> word_sum rules: 0.0280
+ -> word_quark model: 0.0272
+  word_finite temperature: 0.0270
+ -> word_pair production: 0.0244
+  word_field theory: 0.0241
+ -> word_deep inelastic: 0.0236
+ -> word_low energy: 0.0236
+ -> word_perturbation theory: 0.0234
+ 
+Cluster 1:
+ -> categories_cond-mat: 1.0000
+ -> word_quantum hall: 0.0934
+ -> word_magnetic field: 0.0790
+ -> word_hubbard model: 0.0750
+ -> word_monte carlo: 0.0640
+ -> word_bose einstein: 0.0488
+  word_renormalization group: 0.0470
+ -> word_ising model: 0.0414
+ -> word_phase transitions: 0.0411
+  word_phase transition: 0.0410
+ -> word_long range: 0.0377
+ -> word_ground state: 0.0371
+ -> word_mean field: 0.0344
+ -> word_hall effect: 0.0338
+  word_field theory: 0.0335
+ -> word_phase diagram: 0.0326
+ -> word_finite size: 0.0297
+ -> word_high temperature: 0.0270
+ -> word_magnetic fields: 0.0200
+  word_finite temperature: 0.0185
+ 
+Cluster 2:
+ -> categories_hep-th: 1.0000
+  word_field theory: 0.0732
+  word_black holes: 0.0714
+ -> word_string theory: 0.0633
+  word_black hole: 0.0579
+ -> word_gauge theories: 0.0568
+ -> word_yang mills: 0.0541
+ -> word_chern simons: 0.0417
+ -> word_field theories: 0.0385
+  word_gauge theory: 0.0364
+  word_quantum gravity: 0.0356
+  word_quantum mechanics: 0.0276
+  word_renormalization group: 0.0245
+ -> word_non abelian: 0.0245
+ -> word_conformal field: 0.0218
+ -> word_quantum field: 0.0207
+ -> word_space time: 0.0190
+  word_finite temperature: 0.0179
+ -> word_effective action: 0.0177
+ -> word_self dual: 0.0174
+ 
+Cluster 3:
+ -> categories_astro-ph: 0.2482
+ -> categories_gr-qc: 0.1906
+ -> categories_hep-lat: 0.1253
+ -> categories_nucl-th: 0.1098
+ -> categories_math: 0.0852
+  word_black hole: 0.0554
+  word_black holes: 0.0533
+ -> categories_quant-ph: 0.0450
+ -> word_gamma ray: 0.0381
+  word_dark matter: 0.0379
+ -> categories_nlin: 0.0362
+  word_quantum mechanics: 0.0314
+  word_field theory: 0.0285
+  word_quantum gravity: 0.0282
+ -> categories_hep-ex: 0.0281
+ -> categories_physics: 0.0252
+  word_high energy: 0.0228
+ -> word_large scale: 0.0224
+  word_gauge theory: 0.0217
+ -> categories_math-ph: 0.0206
+ 
+Cluster 0: 8743 samples
+Cluster 1: 6280 samples
+Cluster 2: 9490 samples
+Cluster 3: 17849 samples
+Silhouette Score: 0.2024866768886952
+End of GMM clustering run

@@ -1,0 +1,284 @@
+Start of GMM clustering run
+Start of GMM clustering run with parameters: 
+file_name: ../data/pp-data-1732640534.779797.csv
+category_variance_threshold: 0.001
+word_variance_threshold: 0.001
+year: [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009]
+k: 8
+Categories (20): ['categories_astro-ph', 'categories_cond-mat', 'categories_cs', 'categories_econ', 'categories_eess', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_physics', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_stat']
+Categories kept after VarianceThreshold (20): ['categories_astro-ph', 'categories_cond-mat', 'categories_cs', 'categories_econ', 'categories_eess', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_physics', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_stat']
+Word features (100): ['black hole' 'black holes' 'bose einstein' 'bose einstein condensate'
+ 'bose einstein condensates' 'bound states' 'boundary conditions'
+ 'brane world' 'carbon nanotubes' 'chern simons' 'correlation functions'
+ 'cosmic ray' 'cosmic rays' 'cosmological constant' 'cp violation'
+ 'cross section' 'dark energy' 'dark matter' 'density functional'
+ 'differential equations' 'domain wall' 'dynamical systems'
+ 'einstein condensate' 'einstein condensates' 'electronic structure'
+ 'equation state' 'extra dimensions' 'field theories' 'field theory'
+ 'finite temperature' 'form factors' 'gamma ray' 'gamma ray bursts'
+ 'gauge theories' 'gauge theory' 'general relativity' 'gravitational wave'
+ 'gravitational waves' 'ground state' 'hall effect' 'heavy ion'
+ 'heavy ion collisions' 'higgs boson' 'high energy' 'high resolution'
+ 'high temperature' 'higher order' 'hubbard model' 'ion collisions'
+ 'ising model' 'large scale' 'lattice qcd' 'lie algebras' 'long range'
+ 'low energy' 'low mass' 'magnetic field' 'magnetic fields' 'mean field'
+ 'mills theory' 'monte carlo' 'neutron star' 'neutron stars' 'non abelian'
+ 'non commutative' 'non equilibrium' 'non linear' 'perturbation theory'
+ 'phase diagram' 'phase space' 'phase transition' 'phase transitions'
+ 'quantum dot' 'quantum dots' 'quantum field' 'quantum field theory'
+ 'quantum gravity' 'quantum hall' 'quantum mechanics' 'quantum phase'
+ 'quantum systems' 'quark gluon' 'random walks' 'ray bursts'
+ 'ray emission' 'renormalization group' 'scalar field'
+ 'schrodinger equation' 'second order' 'space time' 'spin orbit'
+ 'standard model' 'star formation' 'statistical mechanics' 'string theory'
+ 'symmetry breaking' 'time dependent' 'xmm newton' 'yang mills'
+ 'yang mills theory']
+Words kept after VarianceThreshold (87): ['word_black hole', 'word_black holes', 'word_bose einstein', 'word_bound states', 'word_boundary conditions', 'word_brane world', 'word_carbon nanotubes', 'word_chern simons', 'word_correlation functions', 'word_cosmic ray', 'word_cosmic rays', 'word_cosmological constant', 'word_cp violation', 'word_cross section', 'word_dark energy', 'word_dark matter', 'word_density functional', 'word_differential equations', 'word_domain wall', 'word_dynamical systems', 'word_electronic structure', 'word_equation state', 'word_extra dimensions', 'word_field theories', 'word_field theory', 'word_finite temperature', 'word_form factors', 'word_gamma ray', 'word_gauge theories', 'word_gauge theory', 'word_general relativity', 'word_gravitational wave', 'word_gravitational waves', 'word_ground state', 'word_hall effect', 'word_heavy ion', 'word_higgs boson', 'word_high energy', 'word_high resolution', 'word_high temperature', 'word_higher order', 'word_hubbard model', 'word_ising model', 'word_large scale', 'word_lattice qcd', 'word_lie algebras', 'word_long range', 'word_low energy', 'word_low mass', 'word_magnetic field', 'word_magnetic fields', 'word_mean field', 'word_monte carlo', 'word_neutron star', 'word_neutron stars', 'word_non abelian', 'word_non commutative', 'word_non equilibrium', 'word_non linear', 'word_perturbation theory', 'word_phase diagram', 'word_phase space', 'word_phase transition', 'word_phase transitions', 'word_quantum dot', 'word_quantum dots', 'word_quantum gravity', 'word_quantum hall', 'word_quantum mechanics', 'word_quantum systems', 'word_quark gluon', 'word_random walks', 'word_ray emission', 'word_renormalization group', 'word_scalar field', 'word_schrodinger equation', 'word_second order', 'word_space time', 'word_spin orbit', 'word_standard model', 'word_star formation', 'word_statistical mechanics', 'word_string theory', 'word_symmetry breaking', 'word_time dependent', 'word_xmm newton', 'word_yang mills']
+Applying GMM with k=8 to data with shape: (127028, 107)
+Centroids:    categories_astro-ph  categories_cond-mat  categories_cs  categories_econ  \
+0                  0.0                  0.0       0.000000              0.0   
+1                  0.0                  1.0       0.000000              0.0   
+2                  1.0                  0.0       0.000000              0.0   
+3                  0.0                  0.0       0.000049              0.0   
+4                  0.0                  0.0       0.000000              0.0   
+5                  0.0                  0.0       0.025594              0.0   
+6                  0.0                  0.0       0.000000              0.0   
+7                  0.0                  0.0       0.000000              0.0   
+
+   categories_eess  categories_gr-qc  categories_hep-ex  categories_hep-lat  \
+0              0.0          0.000000           0.000000            0.000000   
+1              0.0          0.000000           0.000000            0.000000   
+2              0.0          0.000000           0.000000            0.000000   
+3              0.0          0.286484           0.000049            0.060320   
+4              0.0          0.000000           0.000000            0.000000   
+5              0.0          0.191448           0.082488            0.093068   
+6              0.0          0.000000           0.000000            0.000000   
+7              0.0          0.000000           0.000000            0.000000   
+
+   categories_hep-ph  categories_hep-th  ...  word_space time  \
+0                0.0           0.000000  ...         0.006294   
+1                0.0           0.000000  ...         0.002257   
+2                0.0           0.000000  ...         0.004307   
+3                0.0           0.475249  ...         0.043707   
+4                1.0           0.000000  ...         0.009610   
+5                0.0           0.283068  ...         0.007478   
+6                0.0           0.000000  ...         0.031542   
+7                0.0           0.000000  ...         0.026588   
+
+   word_spin orbit  word_standard model  word_star formation  \
+0         0.008644             0.003574             0.000420   
+1         0.023280             0.000389             0.000000   
+2         0.001240             0.002818             0.074915   
+3         0.000000             0.000000             0.000000   
+4         0.000627             0.057932             0.000400   
+5         0.003076             0.023862             0.000206   
+6         0.003902             0.005393             0.000241   
+7         0.001202             0.003880             0.000000   
+
+   word_statistical mechanics  word_string theory  word_symmetry breaking  \
+0                    0.001877            0.001787                0.017462   
+1                    0.016182            0.000435                0.014092   
+2                    0.001055            0.002957                0.000838   
+3                    0.000000            0.045166                0.022715   
+4                    0.000691            0.010291                0.031803   
+5                    0.010129            0.002680                0.005209   
+6                    0.023873            0.005381                0.014198   
+7                    0.008178            0.006624                0.005958   
+
+   word_time dependent  word_xmm newton  word_yang mills  
+0             0.011110         0.000000         0.005313  
+1             0.012901         0.000000         0.000884  
+2             0.004564         0.040401         0.000879  
+3             0.000000         0.000000         0.066677  
+4             0.003111         0.000055         0.016492  
+5             0.024117         0.000000         0.003073  
+6             0.032408         0.000000         0.002700  
+7             0.018697         0.000000         0.025177  
+
+[8 rows x 107 columns]
+Cluster 0:
+ -> categories_nucl-th: 1.0000
+  word_heavy ion: 0.1077
+  word_field theory: 0.0643
+  word_quark gluon: 0.0559
+  word_mean field: 0.0522
+  word_form factors: 0.0472
+  word_phase transition: 0.0451
+  word_low energy: 0.0438
+  word_neutron stars: 0.0427
+  word_high energy: 0.0381
+ -> word_equation state: 0.0370
+  word_perturbation theory: 0.0343
+  word_lattice qcd: 0.0334
+  word_finite temperature: 0.0333
+  word_neutron star: 0.0296
+ -> word_cross section: 0.0190
+  word_phase transitions: 0.0187
+  word_ground state: 0.0184
+  word_symmetry breaking: 0.0175
+  word_density functional: 0.0163
+ 
+Cluster 1:
+ -> categories_cond-mat: 1.0000
+  word_magnetic field: 0.0625
+ -> word_quantum dots: 0.0572
+  word_bose einstein: 0.0500
+ -> word_quantum hall: 0.0492
+ -> word_quantum dot: 0.0481
+  word_phase transition: 0.0427
+  word_monte carlo: 0.0412
+  word_phase transitions: 0.0394
+ -> word_hubbard model: 0.0381
+ -> word_carbon nanotubes: 0.0364
+ -> word_phase diagram: 0.0342
+ -> word_hall effect: 0.0301
+ -> word_electronic structure: 0.0296
+  word_mean field: 0.0290
+  word_ground state: 0.0277
+ -> word_high temperature: 0.0273
+  word_long range: 0.0265
+  word_density functional: 0.0250
+ -> word_renormalization group: 0.0242
+ 
+Cluster 2:
+ -> categories_astro-ph: 1.0000
+  word_dark matter: 0.1151
+ -> word_gamma ray: 0.0930
+  word_black hole: 0.0792
+ -> word_star formation: 0.0749
+  word_dark energy: 0.0595
+  word_black holes: 0.0581
+  word_high energy: 0.0427
+ -> word_xmm newton: 0.0404
+  word_neutron stars: 0.0345
+ -> word_low mass: 0.0321
+  word_magnetic fields: 0.0320
+ -> word_ray emission: 0.0313
+ -> word_cosmic ray: 0.0307
+  word_magnetic field: 0.0305
+  word_large scale: 0.0303
+  word_neutron star: 0.0291
+ -> word_cosmic rays: 0.0278
+ -> word_high resolution: 0.0257
+  word_gravitational waves: 0.0159
+ 
+Cluster 3:
+  categories_hep-th: 0.4752
+  categories_gr-qc: 0.2865
+  word_black holes: 0.1384
+  word_black hole: 0.1279
+  categories_quant-ph: 0.0933
+  word_quantum mechanics: 0.0892
+  word_field theory: 0.0866
+  categories_math-ph: 0.0685
+  word_yang mills: 0.0667
+ -> word_quantum gravity: 0.0633
+  categories_hep-lat: 0.0603
+ -> word_gauge theory: 0.0516
+ -> word_string theory: 0.0452
+  word_space time: 0.0437
+ -> word_cosmological constant: 0.0428
+  word_general relativity: 0.0394
+  word_chern simons: 0.0318
+  word_non abelian: 0.0233
+  word_symmetry breaking: 0.0227
+  word_finite temperature: 0.0226
+ 
+Cluster 4:
+ -> categories_hep-ph: 1.0000
+  word_dark matter: 0.1116
+  word_high energy: 0.0616
+ -> word_standard model: 0.0579
+ -> word_cp violation: 0.0560
+ -> word_higgs boson: 0.0462
+ -> word_extra dimensions: 0.0364
+  word_form factors: 0.0320
+  word_symmetry breaking: 0.0318
+  word_dark energy: 0.0293
+  word_quark gluon: 0.0282
+  word_lattice qcd: 0.0270
+  word_field theory: 0.0256
+  word_low energy: 0.0244
+  word_heavy ion: 0.0239
+  word_perturbation theory: 0.0237
+  word_phase transition: 0.0216
+  word_finite temperature: 0.0215
+  word_black holes: 0.0176
+  word_yang mills: 0.0165
+ 
+Cluster 5:
+  categories_hep-th: 0.2831
+  categories_gr-qc: 0.1914
+  categories_quant-ph: 0.1058
+  categories_hep-lat: 0.0931
+  categories_math-ph: 0.0880
+ -> categories_hep-ex: 0.0825
+  word_dark energy: 0.0571
+ -> categories_nucl-ex: 0.0508
+ -> categories_nlin: 0.0494
+  word_lattice qcd: 0.0424
+ -> word_gauge theories: 0.0419
+ -> word_scalar field: 0.0348
+  word_dark matter: 0.0331
+  word_field theories: 0.0315
+  word_gravitational waves: 0.0295
+ -> word_quantum systems: 0.0272
+ -> word_gravitational wave: 0.0262
+ -> word_brane world: 0.0260
+ -> categories_cs: 0.0256
+  word_time dependent: 0.0241
+ 
+Cluster 6:
+ -> categories_physics: 1.0000
+  word_magnetic field: 0.0723
+  word_monte carlo: 0.0660
+  word_quantum mechanics: 0.0472
+  word_density functional: 0.0358
+  word_time dependent: 0.0324
+  word_space time: 0.0315
+  word_magnetic fields: 0.0301
+  word_high energy: 0.0292
+  word_large scale: 0.0260
+  word_long range: 0.0245
+  word_ground state: 0.0240
+  word_low energy: 0.0239
+ -> word_statistical mechanics: 0.0239
+  word_non linear: 0.0231
+  word_bose einstein: 0.0214
+  word_dark matter: 0.0203
+  word_general relativity: 0.0202
+  word_phase transition: 0.0201
+  word_field theory: 0.0172
+ 
+Cluster 7:
+ -> categories_math: 1.0000
+ -> word_lie algebras: 0.1013
+ -> word_differential equations: 0.0894
+ -> word_dynamical systems: 0.0583
+  word_field theory: 0.0508
+ -> word_random walks: 0.0466
+ -> word_non commutative: 0.0449
+  word_quantum mechanics: 0.0362
+ -> word_schrodinger equation: 0.0347
+ -> word_boundary conditions: 0.0327
+ -> word_second order: 0.0321
+ -> word_higher order: 0.0318
+  word_space time: 0.0266
+  word_yang mills: 0.0252
+  word_non linear: 0.0251
+  word_field theories: 0.0230
+  word_time dependent: 0.0187
+  word_chern simons: 0.0166
+  word_non abelian: 0.0162
+  word_long range: 0.0148
+ 
+Cluster 0: 4137 samples
+Cluster 1: 28309 samples
+Cluster 2: 23725 samples
+Cluster 3: 20242 samples
+Cluster 4: 14358 samples
+Cluster 5: 22779 samples
+Cluster 6: 4149 samples
+Cluster 7: 9329 samples
+Silhouette Score: 0.22096230429964972
+End of GMM clustering run

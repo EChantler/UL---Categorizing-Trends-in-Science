@@ -1,0 +1,226 @@
+Start of GMM clustering run
+Start of GMM clustering run with parameters: 
+file_name: ../data/pp-data-1732640534.779797.csv
+category_variance_threshold: 0.001
+word_variance_threshold: 0.001
+year: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+k: 6
+Categories (20): ['categories_astro-ph', 'categories_cond-mat', 'categories_cs', 'categories_econ', 'categories_eess', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_physics', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_stat']
+Categories kept after VarianceThreshold (20): ['categories_astro-ph', 'categories_cond-mat', 'categories_cs', 'categories_econ', 'categories_eess', 'categories_gr-qc', 'categories_hep-ex', 'categories_hep-lat', 'categories_hep-ph', 'categories_hep-th', 'categories_math', 'categories_math-ph', 'categories_nlin', 'categories_nucl-ex', 'categories_nucl-th', 'categories_physics', 'categories_q-bio', 'categories_q-fin', 'categories_quant-ph', 'categories_stat']
+Word features (100): ['ab initio' 'angular momentum' 'black hole' 'black holes' 'bose einstein'
+ 'bose einstein condensates' 'boundary conditions' 'case study'
+ 'complex networks' 'convolutional neural' 'convolutional neural networks'
+ 'cosmic ray' 'dark energy' 'dark matter' 'deep learning' 'deep neural'
+ 'deep neural networks' 'deep reinforcement' 'deep reinforcement learning'
+ 'density functional' 'differential equations' 'dynamical systems'
+ 'effective field' 'einstein condensates' 'end end' 'field theories'
+ 'field theory' 'finite element' 'finite temperature' 'gamma ray'
+ 'gauge theories' 'general relativity' 'generative adversarial'
+ 'gravitational wave' 'gravitational waves' 'ground state' 'hall effect'
+ 'heavy ion' 'heavy ion collisions' 'higgs boson' 'high dimensional'
+ 'high energy' 'high resolution' 'higher order' 'hubbard model'
+ 'ion collisions' 'large scale' 'lattice qcd' 'lie algebras' 'long range'
+ 'low energy' 'low mass' 'low rank' 'machine learning' 'magnetic field'
+ 'magnetic fields' 'massive mimo' 'mean field' 'milky way' 'monte carlo'
+ 'multi agent' 'navier stokes' 'neural network' 'neural networks'
+ 'neutron star' 'neutron stars' 'non abelian' 'non equilibrium'
+ 'non linear' 'optimal control' 'phase diagram' 'phase transition'
+ 'phase transitions' 'quantum dot' 'quantum dots' 'quantum field'
+ 'quantum gravity' 'quantum hall' 'quantum mechanics' 'quantum systems'
+ 'random walks' 'real time' 'recurrent neural' 'reinforcement learning'
+ 'renormalization group' 'scalar field' 'schrodinger equation'
+ 'second order' 'social networks' 'space time' 'spin orbit'
+ 'standard model' 'star formation' 'star forming' 'symmetry breaking'
+ 'time dependent' 'time series' 'topological insulator' 'using deep'
+ 'yang mills']
+Words kept after VarianceThreshold (77): ['word_angular momentum', 'word_black hole', 'word_black holes', 'word_bose einstein', 'word_boundary conditions', 'word_case study', 'word_complex networks', 'word_cosmic ray', 'word_dark energy', 'word_dark matter', 'word_deep learning', 'word_density functional', 'word_differential equations', 'word_dynamical systems', 'word_end end', 'word_field theories', 'word_field theory', 'word_finite element', 'word_gamma ray', 'word_gauge theories', 'word_general relativity', 'word_generative adversarial', 'word_gravitational wave', 'word_gravitational waves', 'word_ground state', 'word_hall effect', 'word_high dimensional', 'word_high energy', 'word_high resolution', 'word_higher order', 'word_large scale', 'word_lattice qcd', 'word_lie algebras', 'word_long range', 'word_low energy', 'word_low mass', 'word_low rank', 'word_machine learning', 'word_magnetic field', 'word_magnetic fields', 'word_massive mimo', 'word_mean field', 'word_monte carlo', 'word_navier stokes', 'word_neural network', 'word_neural networks', 'word_neutron star', 'word_neutron stars', 'word_non equilibrium', 'word_non linear', 'word_optimal control', 'word_phase diagram', 'word_phase transition', 'word_phase transitions', 'word_quantum dot', 'word_quantum dots', 'word_quantum gravity', 'word_quantum hall', 'word_quantum mechanics', 'word_quantum systems', 'word_random walks', 'word_real time', 'word_reinforcement learning', 'word_renormalization group', 'word_schrodinger equation', 'word_second order', 'word_social networks', 'word_space time', 'word_spin orbit', 'word_standard model', 'word_star formation', 'word_star forming', 'word_symmetry breaking', 'word_time dependent', 'word_time series', 'word_topological insulator', 'word_yang mills']
+Applying GMM with k=6 to data with shape: (269711, 97)
+Centroids:    categories_astro-ph  categories_cond-mat  categories_cs  categories_econ  \
+0                  0.0                  1.0            0.0         0.000000   
+1                  0.0                  0.0            0.0         0.001312   
+2                  0.0                  0.0            1.0         0.000000   
+3                  0.0                  0.0            0.0         0.000000   
+4                  1.0                  0.0            0.0         0.000000   
+5                  0.0                  0.0            0.0         0.000000   
+
+   categories_eess  categories_gr-qc  categories_hep-ex  categories_hep-lat  \
+0         0.000000          0.000000           0.000000            0.000000   
+1         0.027214          0.140902           0.026918            0.028987   
+2         0.000000          0.000000           0.000000            0.000000   
+3         0.000000          0.000000           0.000000            0.000000   
+4         0.000000          0.000000           0.000000            0.000000   
+5         0.000000          0.000000           0.000000            0.000000   
+
+   categories_hep-ph  categories_hep-th  ...  word_space time  \
+0                0.0                0.0  ...         0.002863   
+1                0.0                0.0  ...         0.017155   
+2                0.0                0.0  ...         0.006880   
+3                0.0                1.0  ...         0.023948   
+4                0.0                0.0  ...         0.002860   
+5                1.0                0.0  ...         0.005896   
+
+   word_spin orbit  word_standard model  word_star formation  \
+0         0.077018             0.000321             0.000027   
+1         0.005393             0.005975             0.000202   
+2         0.000273             0.000159             0.000000   
+3         0.001458             0.018411             0.000000   
+4         0.003239             0.003697             0.083039   
+5         0.001242             0.074524             0.000085   
+
+   word_star forming  word_symmetry breaking  word_time dependent  \
+0           0.000000                0.024326             0.018081   
+1           0.000076                0.010542             0.018722   
+2           0.000000                0.001111             0.002652   
+3           0.000000                0.023530             0.007257   
+4           0.042952                0.001400             0.005286   
+5           0.000263                0.031349             0.003873   
+
+   word_time series  word_topological insulator  word_yang mills  
+0          0.001349                    0.046849         0.000968  
+1          0.018153                    0.000974         0.012787  
+2          0.020257                    0.000000         0.000034  
+3          0.000128                    0.001478         0.065321  
+4          0.004949                    0.000000         0.000243  
+5          0.000066                    0.000199         0.023854  
+
+[6 rows x 97 columns]
+Cluster 0:
+ -> categories_cond-mat: 1.0000
+ -> word_spin orbit: 0.0770
+  word_phase transition: 0.0570
+  word_magnetic field: 0.0536
+  word_phase transitions: 0.0522
+ -> word_quantum hall: 0.0471
+ -> word_topological insulator: 0.0468
+ -> word_hall effect: 0.0466
+ -> word_quantum dot: 0.0464
+ -> word_quantum dots: 0.0454
+ -> word_bose einstein: 0.0445
+  word_monte carlo: 0.0424
+ -> word_phase diagram: 0.0370
+ -> word_long range: 0.0332
+ -> word_density functional: 0.0322
+ -> word_non equilibrium: 0.0311
+ -> word_ground state: 0.0296
+ -> word_mean field: 0.0244
+  word_symmetry breaking: 0.0243
+  word_renormalization group: 0.0222
+ 
+Cluster 1:
+ -> categories_math: 0.2761
+ -> categories_physics: 0.1574
+ -> categories_gr-qc: 0.1409
+ -> categories_stat: 0.1111
+ -> categories_quant-ph: 0.0807
+ -> categories_math-ph: 0.0518
+ -> categories_nucl-th: 0.0401
+  word_black hole: 0.0347
+  word_black holes: 0.0335
+ -> word_differential equations: 0.0322
+ -> categories_hep-lat: 0.0290
+  word_high dimensional: 0.0285
+  word_monte carlo: 0.0280
+ -> categories_eess: 0.0272
+  word_neural networks: 0.0270
+ -> categories_hep-ex: 0.0269
+  word_machine learning: 0.0240
+  word_dark matter: 0.0233
+  word_field theory: 0.0232
+  word_quantum mechanics: 0.0229
+ 
+Cluster 2:
+ -> categories_cs: 1.0000
+  word_neural networks: 0.1367
+ -> word_deep learning: 0.1146
+ -> word_reinforcement learning: 0.0857
+  word_machine learning: 0.0777
+ -> word_neural network: 0.0770
+  word_large scale: 0.0583
+ -> word_real time: 0.0496
+ -> word_end end: 0.0354
+ -> word_generative adversarial: 0.0293
+ -> word_social networks: 0.0286
+ -> word_case study: 0.0249
+ -> word_low rank: 0.0211
+ -> word_time series: 0.0203
+ -> word_massive mimo: 0.0200
+  word_high dimensional: 0.0165
+ -> word_complex networks: 0.0141
+ -> word_higher order: 0.0130
+  word_monte carlo: 0.0107
+ -> word_second order: 0.0085
+ 
+Cluster 3:
+ -> categories_hep-th: 1.0000
+  word_black holes: 0.1522
+  word_black hole: 0.1204
+  word_field theory: 0.0918
+  word_yang mills: 0.0653
+ -> word_quantum gravity: 0.0506
+  word_gauge theories: 0.0472
+ -> word_field theories: 0.0423
+  word_dark energy: 0.0373
+  word_dark matter: 0.0334
+  word_quantum mechanics: 0.0249
+ -> word_space time: 0.0239
+  word_symmetry breaking: 0.0235
+  word_renormalization group: 0.0219
+  word_gravitational waves: 0.0209
+  word_standard model: 0.0184
+ -> word_general relativity: 0.0184
+  word_magnetic field: 0.0177
+  word_phase transition: 0.0176
+  word_phase transitions: 0.0134
+ 
+Cluster 4:
+ -> categories_astro-ph: 1.0000
+  word_dark matter: 0.1490
+  word_gamma ray: 0.1050
+  word_black hole: 0.0867
+ -> word_star formation: 0.0830
+  word_black holes: 0.0595
+ -> word_star forming: 0.0430
+  word_magnetic field: 0.0412
+  word_dark energy: 0.0398
+ -> word_low mass: 0.0384
+ -> word_neutron star: 0.0376
+ -> word_gravitational wave: 0.0372
+  word_cosmic ray: 0.0362
+  word_high energy: 0.0342
+  word_magnetic fields: 0.0316
+  word_large scale: 0.0287
+ -> word_neutron stars: 0.0285
+  word_gravitational waves: 0.0258
+ -> word_high resolution: 0.0242
+ -> word_angular momentum: 0.0089
+ 
+Cluster 5:
+ -> categories_hep-ph: 1.0000
+  word_dark matter: 0.3235
+  word_standard model: 0.0745
+  word_high energy: 0.0623
+ -> word_lattice qcd: 0.0495
+  word_symmetry breaking: 0.0313
+  word_field theory: 0.0307
+  word_gamma ray: 0.0295
+  word_magnetic field: 0.0280
+  word_phase transition: 0.0257
+  word_dark energy: 0.0255
+  word_yang mills: 0.0239
+  word_black holes: 0.0209
+  word_gravitational waves: 0.0205
+ -> word_low energy: 0.0203
+  word_cosmic ray: 0.0147
+  word_renormalization group: 0.0144
+  word_magnetic fields: 0.0139
+  word_gauge theories: 0.0132
+  word_monte carlo: 0.0128
+ 
+Cluster 0: 36452 samples
+Cluster 1: 115052 samples
+Cluster 2: 43933 samples
+Cluster 3: 15590 samples
+Cluster 4: 43573 samples
+Cluster 5: 15111 samples
+Silhouette Score: 0.20802146941614083
+End of GMM clustering run
